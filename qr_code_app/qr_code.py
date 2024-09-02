@@ -10,8 +10,8 @@ name = st.text_input("Enter your name (optional):")
 email = st.text_input("Enter your email (optional):")
 phone = st.text_input("Enter your phone number (optional):")
 
-# Text area for additional input
-input_text = st.text_area("Enter text or URL to generate QR code (optional):")
+# Text area for URL or additional input
+input_text = st.text_area("Enter a URL or text to generate QR code (optional):")
 
 if st.button("Generate QR Code"):
     # Check if at least one field is filled
